@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="hy" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Showroom | MERINI</title>
+  <meta name="description" content="Visit the MERINI showrooms in Yerevan: Titogradyan 1/12 and Garage Masters Mall. Open daily 10:00–20:00.">
+  <meta name="theme-color" content="#F6F3EE">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230E1A30'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Georgia' font-size='34' fill='%23D9C08E'%3EM%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400..700;1,400..700&display=swap">
+  <link rel="stylesheet" href="assets/css/styles.css?v=7">
+</head>
+<body data-page="showroom">
+  <a class="skip-link" href="#main" data-i18n="nav.skip"></a>
+  <header id="site-header"></header>
+
+  <main id="main">
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow reveal" data-i18n="sr.eyebrow"></span>
+        <h1 class="display reveal" data-delay="1" data-i18n="sr.title"></h1>
+        <p class="lead reveal" data-delay="2" data-i18n="sr.lead"></p>
+        <div class="reveal" data-delay="3" data-status></div>
+      </div>
+    </section>
+
+    <section class="container" style="padding-bottom:var(--section)">
+      <div class="loc-cards">
+        <article class="loc-card reveal">
+          <iframe title="Map: Titogradyan 1/12, Yerevan" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Titogradyan+1%2F12,+Yerevan,+Armenia&amp;z=15&amp;output=embed"></iframe>
+          <div class="body">
+            <h2 class="h3" data-i18n="loc1.name"></h2>
+            <p class="muted" data-i18n="loc1.addr"></p>
+            <table class="hours-table" aria-label="Hours"><tbody></tbody></table>
+            <div class="loc-actions">
+              <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Titogradyan+1%2F12+Yerevan" target="_blank" rel="noopener" data-i18n="visit.directions"></a>
+              <a class="link num" href="tel:+37499575111">+374 99 575111</a>
+            </div>
+          </div>
+        </article>
+        <article class="loc-card reveal" data-delay="1">
+          <iframe title="Map: Garage Masters Mall, Yerevan" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+            src="https://www.google.com/maps?q=Garage+Masters+Mall,+Yerevan,+Armenia&amp;z=15&amp;output=embed"></iframe>
+          <div class="body">
+            <h2 class="h3" data-i18n="loc2.name"></h2>
+            <p class="muted" data-i18n="loc2.addr"></p>
+            <table class="hours-table" aria-label="Hours"><tbody></tbody></table>
+            <div class="loc-actions">
+              <a class="link" href="https://www.google.com/maps/search/?api=1&amp;query=Garage+Masters+Mall+Yerevan" target="_blank" rel="noopener" data-i18n="visit.directions"></a>
+              <a class="link num" href="tel:+37498535111">+374 98 535111</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section cfg" id="book">
+      <div class="container split">
+        <div class="split-copy">
+          <span class="eyebrow" data-i18n="nav.book"></span>
+          <h2 class="h2" data-i18n="sr.form.title"></h2>
+          <p class="lead" data-i18n="sr.form.sub"></p>
+          <div class="contact-row">
+            <a class="btn btn--ghost" href="https://wa.me/37499575111" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 20.5l1.3-4.2A8.5 8.5 0 1120.5 12 8.5 8.5 0 018 19.4z"/><path d="M9 8.5c0 3.5 3 6.5 6.5 6.5l1-1.6-2-1-1 .8a5 5 0 01-2.7-2.7l.8-1-1-2z"/></svg>WhatsApp</a>
+            <a class="btn btn--ghost" href="https://www.instagram.com/merinifurniture.yvn/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/></svg>Instagram</a>
+          </div>
+        </div>
+
+        <div>
+          <form class="form" id="book-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="f-name"><span data-i18n="sr.f.name"></span> <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+                <span class="err" id="e-name" role="alert"></span>
+              </div>
+              <div class="field">
+                <label for="f-phone"><span data-i18n="sr.f.phone"></span> <span class="req" aria-hidden="true">*</span></label>
+                <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="+374" required aria-describedby="e-phone">
+                <span class="err" id="e-phone" role="alert"></span>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="f-interest" data-i18n="sr.f.interest"></label>
+                <select id="f-interest" name="interest"></select>
+              </div>
+              <div class="field">
+                <label for="f-date" data-i18n="sr.f.date"></label>
+                <input id="f-date" name="date" type="date">
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-msg" data-i18n="sr.f.msg"></label>
+              <textarea id="f-msg" name="message" rows="3"></textarea>
+            </div>
+            <div style="display:grid;gap:12px">
+              <button class="btn btn--block" type="submit"><span data-i18n="sr.f.submit"></span></button>
+              <p class="form-note" data-i18n="sr.f.demo"></p>
+            </div>
+          </form>
+          <div class="form-success" id="form-success" tabindex="-1" role="status">
+            <span class="eyebrow">MERINI</span>
+            <p class="h3" data-i18n="sr.f.ok"></p>
+            <p class="form-note" data-i18n="sr.f.demo"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="site-footer"></footer>
+
+  <script src="assets/js/data.js?v=7"></script>
+  <script src="assets/js/i18n.js?v=7"></script>
+  <script src="assets/js/main.js?v=7"></script>
+  <script src="assets/js/pages.js?v=7"></script>
+</body>
+</html>

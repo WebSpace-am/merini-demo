@@ -1,0 +1,8 @@
+# Raw Instagram downloads (with MERINI's stamped logo/phone banner); the site uses the cropped copies in assets/
+assets/ig/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
